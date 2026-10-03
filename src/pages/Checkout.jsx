@@ -87,8 +87,3 @@ export default function Checkout( { totals } ) {
 function calcShipping() {
     return 7.99;
 }
-
-function calcTotal(shipping, total) {
-    let grandTotal = shipping + total; 
-    return grandTotal.toFixed(2);
-}
